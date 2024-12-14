@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-12-14">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="relationship" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Laptop" label="Laptop">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Company" label="Company">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="Product" label="Product">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="TypeName" label="TypeName">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="Inches" label="Inches">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="Screen" label="Screen">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="Touchscreen" label="Touchscreen">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="IPSpanel" label="IPSpanel">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="RetinaDisplay" label="RetinaDisplay">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="Spesifikasi" label="Spesifikasi">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Ram" label="Ram">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="CPU_company" label="CPU_company">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="CPU_model" label="CPU_model">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="CPU_freq" label="CPU_freq">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="PrimaryStorage" label="PrimaryStorage">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="PrimaryStorageType" label="PrimaryStorageType">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="SecondaryStorage" label="SecondaryStorage">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="SecondaryStorageType" label="SecondaryStorageType">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="GPU_company" label="GPU_company">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="GPU_model" label="GPU_model">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="Harga" label="Harga">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Price_euros" label="Price_euros">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+      <node id="Sistem Operasi" label="Sistem Operasi">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="OS" label="OS">
+        <attvalues>
+          <attvalue for="0" value="attribute" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Laptop" target="Company" id="0" />
+      <edge source="Laptop" target="Product" id="1" />
+      <edge source="Laptop" target="TypeName" id="2" />
+      <edge source="Laptop" target="Inches" id="3" />
+      <edge source="Laptop" target="Screen" id="4" />
+      <edge source="Laptop" target="Touchscreen" id="5" />
+      <edge source="Laptop" target="IPSpanel" id="6" />
+      <edge source="Laptop" target="RetinaDisplay" id="7" />
+      <edge source="Laptop" target="Spesifikasi" id="8">
+        <attvalues>
+          <attvalue for="1" value="memiliki" />
+        </attvalues>
+      </edge>
+      <edge source="Laptop" target="Harga" id="9">
+        <attvalues>
+          <attvalue for="1" value="punya" />
+        </attvalues>
+      </edge>
+      <edge source="Laptop" target="Sistem Operasi" id="10">
+        <attvalues>
+          <attvalue for="1" value="menggunakan" />
+        </attvalues>
+      </edge>
+      <edge source="Spesifikasi" target="Ram" id="11" />
+      <edge source="Spesifikasi" target="CPU_company" id="12" />
+      <edge source="Spesifikasi" target="CPU_model" id="13" />
+      <edge source="Spesifikasi" target="CPU_freq" id="14" />
+      <edge source="Spesifikasi" target="PrimaryStorage" id="15" />
+      <edge source="Spesifikasi" target="PrimaryStorageType" id="16" />
+      <edge source="Spesifikasi" target="SecondaryStorage" id="17" />
+      <edge source="Spesifikasi" target="SecondaryStorageType" id="18" />
+      <edge source="Spesifikasi" target="GPU_company" id="19" />
+      <edge source="Spesifikasi" target="GPU_model" id="20" />
+      <edge source="Harga" target="Price_euros" id="21" />
+      <edge source="Sistem Operasi" target="OS" id="22" />
+    </edges>
+  </graph>
+</gexf>
